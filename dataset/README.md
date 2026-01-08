@@ -83,15 +83,15 @@ bash extract_images.sh
 
 The benchmark includes **50,000 query-content pairs** across 4 content categories:
 
-| Category | Files | Notice Forms | Tasks | Queries/Task | Total Pairs |
-|----------|-------|--------------|-------|--------------|-------------|
+| Category | Files | Notice Forms | Task Types | Queries per Task | Total Pairs |
+|----------|-------|--------------|------------|------------------|-------------|
 | Books | 100 | 5 | 4 | 10 | 20,000 |
 | Code | 50 | 5 | 4 | 10 | 10,000 |
 | Lyrics | 50 | 5 | 4 | 10 | 10,000 |
 | News | 50 | 5 | 4 | 10 | 10,000 |
 | **Total** | **250** | - | - | - | **50,000** |
 
-**Calculation**: 250 material sources × 5 forms of copyright notice × 40 queries (4 task types × 10 queries per task) = 50,000
+**Calculation**: 250 material sources × 5 forms of copyright notice × 4 task types × 10 queries per task = 50,000
 
 ## Setup Instructions
 
