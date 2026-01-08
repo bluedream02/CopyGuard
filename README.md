@@ -1,9 +1,9 @@
-# Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
+# [AAAI 2026 Oral] Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
 
 [![AAAI 2026 (Oral)](https://img.shields.io/badge/AAAI%202026-Oral-blue)](https://aaai.org/conference/aaai/aaai-26/)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.21871-b31b1b.svg)](https://arxiv.org/abs/2512.21871)
 
-This is the official implementation of **"Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?"** (AAAI 2026).
+This is the official implementation of **"Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?"** (AAAI 2026 Oral).
 
 ## 📑 Table of Contents
 
