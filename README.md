@@ -23,14 +23,14 @@ This repository provides a comprehensive framework for evaluating and enhancing 
 
 The benchmark dataset contains **50,000 query-content pairs** organized across 4 categories:
 
-| Category | Content Files | Image Modes | Notices | Queries | Total Pairs |
-|----------|--------------|-------------|---------|---------|-------------|
-| Books | 100 | 3 | 5 | 40 | 20,000 |
-| Code | 50 | 3 | 5 | 40 | 10,000 |
-| Lyrics | 50 | 3 | 5 | 40 | 10,000 |
-| News | 50 | 3 | 5 | 40 | 10,000 |
+| Category | Content Files | Notices | Queries | Total Pairs |
+|----------|--------------|---------|---------|-------------|
+| Books | 100 | 5 | 40 | 20,000 |
+| Code | 50 | 5 | 40 | 10,000 |
+| Lyrics | 50 | 5 | 40 | 10,000 |
+| News | 50 | 5 | 40 | 10,000 |
 
-**Calculation**: 250 sources × 3 image modes × 5 notice forms × 4 task types × 10 queries = 50,000
+**Calculation**: 250 material sources × 5 forms of copyright notice × 40 queries (4 task types × 10 queries per task) = 50,000
 
 
 ## 📢 News
