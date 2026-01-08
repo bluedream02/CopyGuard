@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Models and data
+models/
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+
+# Image directories (use zip files instead)
+dataset/*_images/
+!dataset/*.zip
+
+# Results and outputs
+results/
+outputs/
+test_results/
+*.json
+*.csv
+!dataset/query/*.json
+!dataset/**/README.json
+
+# Cache files
+cache_*.json
+cached_*.json
+*.cache
+
+# Configuration (contains API keys)
+config/config.yaml
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# API keys and secrets
+*.key
+*.secret
+.env
+
+# Test files
+test_*.py
+!test_defense.py
+
+# Paper and documentation (not for open source release)
+AAAI_*/
+*_arxiv/
+*.tex
+*.bib
+*.bst
+*.sty
+
+
+

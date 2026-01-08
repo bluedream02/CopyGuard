@@ -1,0 +1,24 @@
+skimage
+Image Processing for Python
+
+scikit-image (a.k.a. skimage) is a collection of algorithms for image processing and computer vision.
+
+Attributes
+__version__str
+The scikit-image version string.
+
+Subpackages
+color
+Color space conversion.
+
+data
+Example images and datasets.
+
+draw
+Drawing primitives, such as lines, circles, text, etc.
+
+exposure
+Image intensity adjustment, e.g., histogram equalization, etc.
+
+feature
+Feature detection and extraction, e.g., texture analysis, corners, etc.

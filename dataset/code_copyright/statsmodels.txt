@@ -1,0 +1,11 @@
+statsmodels is a Python module that provides classes and functions for the estimation of many different statistical models, as well as for conducting statistical tests, and statistical data exploration. An extensive list of result statistics are available for each estimator. The results are tested against existing statistical packages to ensure that they are correct. The package is released under the open source Modified BSD (3-clause) license. The online documentation is hosted at statsmodels.org.
+
+Introduction¶
+statsmodels supports specifying models using R-style formulas and pandas DataFrames. Here is a simple example using ordinary least squares:
+
+
+In [1]: import numpy as np
+
+In [2]: import statsmodels.api as sm
+
+In [3]: import statsmodels.formula.api as smf

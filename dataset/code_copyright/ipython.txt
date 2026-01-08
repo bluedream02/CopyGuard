@@ -1,0 +1,17 @@
+IPython Documentation
+Release
+:
+9.0.2
+
+Date
+:
+March 08, 2025
+
+Welcome to the official IPython documentation.
+
+IPython provides a rich toolkit to help you make the most of using Python interactively. Its main components are:
+
+A powerful interactive Python shell.
+
+Screenshot of IPython 6.0
+A Jupyter kernel to work with Python code in Jupyter notebooks and other interactive frontends.

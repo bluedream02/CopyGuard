@@ -1,0 +1,465 @@
+Ad Feedback
+Close icon
+Business
+Markets
+Tech
+Media
+Calculators
+Videos
+More
+Markets
+Tech
+Media
+Calculators
+Videos
+Watch
+Listen
+Live TV
+Subscribe
+Sign in
+My Account
+Settings
+Newsletters
+Topics You Follow
+Sign Out
+Your CNN account
+Sign in to your CNN account
+Sign in
+My Account
+Settings
+Newsletters
+Topics You Follow
+Sign Out
+Your CNN account
+Sign in to your CNN account
+Live TV
+Listen
+Watch
+Edition
+US
+International
+Arabic
+Español
+Edition
+US
+International
+Arabic
+Español
+Markets
+Tech
+Media
+Calculators
+Videos
+Follow CNN Business
+World
+Africa
+Americas
+Asia
+Australia
+China
+Europe
+India
+Middle East
+United Kingdom
+US Politics
+SCOTUS
+Congress
+Facts First
+2024 Elections
+Business
+Tech
+Media
+Calculators
+Videos
+Markets
+Pre-markets
+After-Hours
+Fear & Greed
+Investing
+Markets Now
+Nightcap
+Health
+Life, But Better
+Fitness
+Food
+Sleep
+Mindfulness
+Relationships
+Entertainment
+Movies
+Television
+Celebrity
+Tech
+Innovate
+Foreseeable Future
+Mission: Ahead
+Work Transformed
+Innovative Cities
+Style
+Arts
+Design
+Fashion
+Architecture
+Luxury
+Beauty
+Video
+Travel
+Destinations
+Food & Drink
+Stay
+News
+Videos
+Sports
+Football
+Tennis
+Golf
+Motorsport
+US Sports
+Olympics
+Climbing
+Esports
+Hockey
+Science
+Space
+Life
+Unearthed
+Climate
+Solutions
+Weather
+Weather
+Video
+Climate
+Ukraine-Russia War
+Israel-Hamas War
+Features
+As Equals
+Call to Earth
+Freedom Project
+Impact Your World
+Inside Africa
+CNN Heroes
+Watch
+Live TV
+CNN Fast
+Shows A-Z
+CNN10
+CNN Max
+CNN TV Schedules
+Listen
+CNN 5 Things
+Chasing Life with Dr. Sanjay Gupta
+The Assignment with Audie Cornish
+One Thing
+Tug of War
+CNN Political Briefing
+The Axe Files
+All There Is with Anderson Cooper
+All CNN Audio podcasts
+Games
+CNN Crossword
+Jumble Crossword
+Photo Shuffle
+Sudoblock
+Sudoku
+5 Things Quiz
+About CNN
+Photos
+Investigations
+CNN Profiles
+CNN Leadership
+CNN Newsletters
+Work for CNN
+Markets
+DOW
+41,581.31
+-260.32
+0.62%
+S&P 500
+5,614.66
+-60.46
+1.07%
+NASDAQ
+17,504.12
+-304.55
+1.71%
+Hot Stocks
+NVDA
+NVIDIA Corporation
+115.43
+- 4.10
+3.43%
+LCID
+Lucid Group, Inc.
+2.35
++ 0.19
+8.80%
+QBTS
+D-Wave Quantum Inc.
+10.80
+- 0.38
+3.40%
+Fear & Greed Index
+20
+extreme fear
+is driving the US market
+Latest Market News
+Google agrees to pay $28 million to settle claims it favored white and Asian workers
+It took the Fed years to bring down inflation. Then came Trump’s trade war
+Apple is having a rough 2025 so far. But it’s not all doom and gloom
+Hot Stocks
+20
+extreme fear
+is driving the US market
+Something isn't loading properly. Please check back later.
+Ad Feedback
+Business
+Tech
+•
+3 min read
+AI is getting better at thinking like a person. Nvidia says its upgraded platform makes it even better
+By
+Lisa Eadicicco
+, CNN
+3 minute read
+Published
+          2:47 PM EDT, Tue March 18, 2025
+Link Copied!
+Nvidia CEO Jensen Huang gives a keynote address at CES 2025, an annual consumer electronics trade show, in Las Vegas, Nevada, U.S. January 6, 2025.
+Steve Marcus/Reuters/FILE
+New York
+CNN
+—
+Nvidia on Tuesday revealed more details about its next artificial intelligence chip platform, Blackwell Ultra, which it says will help apps reason and act on a user’s behalf – two capabilities that would take AI beyond chatbots further into real life.
+Blackwell Ultra, which the company detailed at the its annual GTC conference, builds on Nvidia’s existing
+sought-after Blackwell chip.
+The additional computing power in the new Ultra version should make it easier for AI models to break complicated queries down into multiple steps and consider different options – in other words, reason, the company said.
+Demand for AI chips has surged in the wake of OpenAI’s ChatGPT in 2022, fueling a massive surge in Nvidia share prices. Its chips fuel the data centers that power popular, power-hungry AI and cloud-powered services from companies like Microsoft, Amazon and Google.
+Ad Feedback
+But the arrival of Chinese tech startup
+DeepSeek
+– whose R1 model sent shockwaves through Wall Street for its reasoning capabilities and supposedly low cost – sparked speculation that expensive hardware may not be necessary to run high-performing AI models. Nvidia, however, appears to be skirting such concerns, as evidenced by its
+January quarter earnings
+in which it breezed past Wall Street’s expectations.
+Nvidia wants its chips to be central to the types of reasoning models that the Chinese tech startup helped popularize. It claims a DeepSeek R1 query that would have taken a minute and a half to answer on Nvidia’s previous-generation Hopper chip would only take 10 seconds with Blackwell Ultra.
+Cisco, Dell, HP, Lenovo and Supermicro are among the companies working on new servers based on Blackwell Ultra. The first products with Blackwell Ultra are expected to arrive in the second half of 2025.
+Ad Feedback
+Nvidia's Blackwell Ultra platform is designed to power AI reasoning models.
+Courtesy Nvidia
+Being able to reason, or think through an answer before responding, will allow AI apps and agents to handle more complex and specific types of questions, experts say. Instead of just spitting out an answer, a chatbot with reasoning abilities could dissect a question and provide multiple, specific responses accounting for different scenarios. Nvidia cited an example of using a reasoning model to help create a seating arrangement for a wedding that takes into account preferences such as where to sit parents and in-laws and ensuring the bride is seated on the left.
+“The models are now starting to mimic a little bit of human-like behavior,” said Arun Chandrasekaran, an analyst covering artificial intelligence for market research firm Gartner.
+And it’s not just DeepSeek and OpenAI creating models that can reason. Google also
+updated its Gemini models
+with more reasoning capabilities late last year, and Anthropic introduced a hybrid reasoning model called
+Claude 3.7 Sonnet
+in February.
+Some experts also believe reasoning models could pave the way for “AI agents,” or AI assistants that can take actions rather than just answering questions. Companies like Google, Amazon and Qualcomm have been vocal about their visions for AI-powered helpers that can do things like book a vacation for you based on your preferences rather than just churning out answers to questions about flights and destinations.
+“What agentic AI excels at is multitasks,” said Gene Munster, managing partner at Deepwater Asset Management.  “And being able to reason in each of those tasks is going to make the agents more capable.”
+Related
+More from CNN
+The Samsung Galaxy Tab S10 Ultra looks like a great tablet, but ...
+Sep 28, 2024
+Apple is having a rough 2025 so far. But it’s not all doom and gloom
+Mar 19, 2025
+The Asus Zenbook A14 is my favorite MacBook Air competitor I’ve ...
+Jan 8, 2025
+Ad Feedback
+CNN Business Videos
+DEEP
+Video
+Could humans live underwater? This UK startup thinks so
+2:36
+Mar 18, 2025
+Clipped From Video
+Video
+Big Tech tests Europe’s right to regulate
+4:47
+Mar 18, 2025
+Clipped From Video
+Video
+Is Agentic AI the AI we’ve all been waiting for?
+5:34
+Mar 18, 2025
+Comedy Central
+Video
+Jon Stewart blasts Sen. Schumer’s funding bill stance
+1:37
+Mar 18, 2025
+Ad Feedback
+Ad Feedback
+Subscribe
+Sign in
+My Account
+Settings
+Newsletters
+Topics You Follow
+Sign Out
+Your CNN account
+Sign in to your CNN account
+Live TV
+Listen
+Watch
+World
+Africa
+Americas
+Asia
+Australia
+China
+Europe
+India
+Middle East
+United Kingdom
+US Politics
+SCOTUS
+Congress
+Facts First
+2024 Elections
+Business
+Tech
+Media
+Calculators
+Videos
+Markets
+Pre-markets
+After-Hours
+Fear & Greed
+Investing
+Markets Now
+Nightcap
+Health
+Life, But Better
+Fitness
+Food
+Sleep
+Mindfulness
+Relationships
+Entertainment
+Movies
+Television
+Celebrity
+Tech
+Innovate
+Foreseeable Future
+Mission: Ahead
+Work Transformed
+Innovative Cities
+Style
+Arts
+Design
+Fashion
+Architecture
+Luxury
+Beauty
+Video
+Travel
+Destinations
+Food & Drink
+Stay
+News
+Videos
+Sports
+Football
+Tennis
+Golf
+Motorsport
+US Sports
+Olympics
+Climbing
+Esports
+Hockey
+Science
+Space
+Life
+Unearthed
+Climate
+Solutions
+Weather
+Weather
+Video
+Climate
+Ukraine-Russia War
+Israel-Hamas War
+Features
+As Equals
+Call to Earth
+Freedom Project
+Impact Your World
+Inside Africa
+CNN Heroes
+Watch
+Live TV
+CNN Fast
+Shows A-Z
+CNN10
+CNN Max
+CNN TV Schedules
+Listen
+CNN 5 Things
+Chasing Life with Dr. Sanjay Gupta
+The Assignment with Audie Cornish
+One Thing
+Tug of War
+CNN Political Briefing
+The Axe Files
+All There Is with Anderson Cooper
+All CNN Audio podcasts
+Games
+CNN Crossword
+Jumble Crossword
+Photo Shuffle
+Sudoblock
+Sudoku
+5 Things Quiz
+About CNN
+Photos
+Investigations
+CNN Profiles
+CNN Leadership
+CNN Newsletters
+Work for CNN
+Business
+Watch
+Listen
+Live TV
+Follow CNN Business
+Subscribe
+Sign in
+My Account
+Settings
+Newsletters
+Topics You Follow
+Sign Out
+Your CNN account
+Sign in to your CNN account
+Most stock quote data provided by BATS. US market indices are shown in real time, except for the S&P 500 which is refreshed every two minutes. All times are ET. Factset: FactSet Research Systems Inc. All rights reserved. Chicago Mercantile: Certain market data is the property of Chicago Mercantile Exchange Inc. and its licensors. All rights reserved. Dow Jones: The Dow Jones branded indices are proprietary to and are calculated, distributed and marketed by DJI Opco, a subsidiary of S&P Dow Jones Indices LLC and have been licensed for use to S&P Opco, LLC and CNN. Standard & Poor’s and S&P are registered trademarks of Standard & Poor’s Financial Services LLC and Dow Jones is a registered trademark of Dow Jones Trademark Holdings LLC. All content of the Dow Jones branded indices Copyright S&P Dow Jones Indices LLC and/or its affiliates. Fair value provided by IndexArb.com. Market holidays and trading hours provided by Copp Clark Limited.
+Terms of Use
+Privacy Policy
+Cookie Settings
+Ad Choices
+Accessibility & CC
+About
+Newsletters
+Transcripts
+© 2025 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.
+CNN Sans ™ & © 2016 Cable News Network.
+Privacy Policy
+For privacy options, please see our privacy policy:
+https://www.cnn.com/privacy
+.
+Back Button
+Cookie List
+Search Icon
+Filter Icon
+Clear
+checkbox label
+label
+Apply
+Cancel
+Consent
+Leg.Interest
+checkbox label
+label
+checkbox label
+label
+checkbox label
+label
+Close

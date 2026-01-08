@@ -1,0 +1,13 @@
+pandas.read_json
+pandas.read_json(path_or_buf, *, orient=None, typ='frame', dtype=None, convert_axes=None, convert_dates=True, keep_default_dates=True, precise_float=False, date_unit=None, encoding=None, encoding_errors='strict', lines=False, chunksize=None, compression='infer', nrows=None, storage_options=None, dtype_backend=<no_default>, engine='ujson')[source]
+Convert a JSON string to pandas object.
+
+Parameters:
+path_or_bufa valid JSON str, path object or file-like object
+Any valid string path is acceptable. The string could be a URL. Valid URL schemes include http, ftp, s3, and file. For file URLs, a host is expected. A local file could be: file://localhost/path/to/table.json.
+
+If you want to pass in a path object, pandas accepts any os.PathLike.
+
+By file-like object, we refer to objects with a read() method, such as a file handle (e.g. via builtin open function) or StringIO.
+
+Deprecated since version 2.1.0: Passing json literal strings is deprecated.
