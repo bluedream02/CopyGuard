@@ -1,0 +1,19 @@
+Getting Started
+To get started with using pip, you should install Python on your system.
+
+Ensure you have a working pip
+As a first step, you should check that you have a working Python with pip installed. This can be done by running the following commands and making sure that the output looks similar.
+
+
+Linux
+python --version
+Python 3.N.N
+python -m pip --version
+pip X.Y.Z from ... (python 3.N.N)
+
+MacOS
+
+Windows
+If that worked, congratulations! You have a working pip in your environment.
+
+If you got output that does not look like the sample above, please read the Installation page. It provides guidance on how to install pip within a Python environment that doesn’t have it.

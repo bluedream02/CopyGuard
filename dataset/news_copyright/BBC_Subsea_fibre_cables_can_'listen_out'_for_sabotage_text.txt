@@ -1,0 +1,28 @@
+
+Subsea fibre cables can 'listen out' for sabotage
+1 day ago
+Share
+Save
+Chris Baraniuk
+Technology Reporter
+Share
+Save
+Getty Images
+Subsea cables are critical to the operation of the internet
+The diver had found the fibre optic cable lying on the seabed of the North Sea. He swam closer, until it was near enough to touch.
+He reached out his hand. But someone could tell he was lurking there. Someone was watching.
+"He stops and just touches the cable lightly, you clearly see the signal," says Daniel Gerwig, global sales manager at AP Sensing, a German technology company. "The acoustic energy which travels through the fibre is basically disturbing our signal. We can measure this disturbance."
+Multiple reports
+of damaged telecommunications cables in the Baltic Sea have raised alarm in recent months.
+So important are these cables, which carry huge volumes of internet data between countries, that Nato has launched a mission
+called "Baltic Sentry"
+, to patrol the Baltic Sea with aircraft, warships and drones.
+The EU is also
+stepping up measures
+to monitor and protect cables.
+Despite those efforts the authorities cannot be everywhere at once.
+So, some companies are trying to monitor what's going on in the vicinity of any cable – by using fibre optic signals to listen out for surreptitious underwater drones, or hostile vessels dragging their anchors along the seabed.
+Advertisement
+It was during tests of AP Sensing's system last year – not a real attempt at sabotage – that the diver patted his hand on the subsea cable watched over by the firm.
+The company also deployed ships, drones and divers with sea scooters to find out how accurately its software could pick out and identify the presence of these vehicles.
+And, the team tested whether their cable could "hear" a vessel plunging its anchor into the water.

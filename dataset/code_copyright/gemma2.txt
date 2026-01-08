@@ -1,0 +1,11 @@
+Gemma2
+Overview
+The Gemma2 model was proposed in Gemma2: Open Models Based on Gemini Technology and Research by Gemma2 Team, Google. Two Gemma2 models are released, with parameters sizes of 9 billion (9B) and 27 billion (27B).
+
+The abstract from the blog post is the following:
+
+Now we’re officially releasing Gemma 2 to researchers and developers globally. Available in both 9 billion (9B) and 27 billion (27B) parameter sizes, Gemma 2 is higher-performing and more efficient at inference than the first generation, with significant safety advancements built in. In fact, at 27B, it offers competitive alternatives to models more than twice its size, delivering the kind of performance that was only possible with proprietary models as recently as December.
+
+Tips:
+
+The original checkpoints can be converted using the conversion script src/transformers/models/Gemma2/convert_Gemma2_weights_to_hf.py

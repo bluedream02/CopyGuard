@@ -1,0 +1,13 @@
+Getting Started
+Here you can find the steps to install and create a simple application using the two technologies that Qt provides: Qt Widgets and Qt Quick.
+
+Note
+
+If you are new to Qt, you can check the Frequently Asked Questions section at the end of this page to understand concepts, file types, compatibles IDEs, etc. In case you own a Qt License, please refer to Commercial Use.
+
+Requirements
+Before you can install Qt for Python, first you must install the following software:
+
+Official Python 3.8+
+
+We highly recommend using a virtual environment, such as venv or virtualenv and avoid installing PySide6 via pip in your system.

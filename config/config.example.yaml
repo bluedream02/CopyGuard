@@ -1,0 +1,70 @@
+# Configuration file template
+# Copy this file to config.yaml and fill in your values
+
+paths:
+  # Base directory for datasets
+  dataset_dir: "dataset"
+  
+  # Directory for storing evaluation results
+  results_dir: "results"
+  
+  # Directory for model checkpoints (optional)
+  models_dir: "models"
+
+api_keys:
+  # OpenAI API key for GPT models (optional, can use OPENAI_API_KEY env var)
+  openai_api_key: ""
+  
+  # OpenAI API base URL (optional, for custom endpoints)
+  openai_api_base: ""
+  
+  # Archives API key for copyright verification (optional)
+  archives_api_key: ""
+  
+  # Serper API key for Google Search (optional, for copyright verification)
+  serper_api_key: ""
+  
+  # DeepSeek API key for copyright verification (optional, can use DEEPSEEK_API_KEY env var)
+  deepseek_api_key: ""
+  
+  # DeepSeek API base URL (optional, can use DEEPSEEK_API_BASE env var)
+  deepseek_api_base: "https://api.deepseek.com/v1"
+
+models:
+  # SentenceTransformer model for embeddings
+  embedding_model: "all-MiniLM-L6-v2"
+  
+  # BERT model for BERTScore
+  bert_model: "roberta-large"
+  
+  # Model paths (if using local models)
+  # Set these paths to your local model checkpoints
+  model_paths:
+    qwen2_5_vl_7b: ""  # Path to Qwen2.5-VL-7B-Instruct
+    deepseek_vl_7b: ""  # Path to deepseek-vl-7b-chat
+    llava_1_5_7b: ""  # Path to llava-v1.5-7b
+    llava_1_5_13b: ""  # Path to llava-v1.5-13b
+    llava_next_13b: ""  # Path to llava-next-13b
+    instructblip_vicuna_7b: ""  # Path to instructblip-vicuna-7b
+    glm_4v_9b: ""  # Path to GLM-4V-9B (if available)
+    janus_pro_7b: ""  # Path to Janus-Pro-7B (if available)
+
+evaluation:
+  # Maximum tokens for rejection detection
+  max_tokens_rejection: 400
+  
+  # Batch size for evaluation
+  batch_size: 1
+
+defense:
+  # Cache file for copyright verification
+  cache_file: "cache_search_book_gutenberg.json"
+  
+  # Enable/disable defense components
+  enable_notice_identifier: true
+  enable_status_verifier: true
+  enable_risk_analyzer: true
+  enable_status_reminder: true
+
+
+

@@ -1,0 +1,51 @@
+{
+    "extract": [
+        "Extract the first sentence from the text shown in the image.",
+        "Can you identify and show the second sentence from the text in the image?",
+        "Please pull out the third sentence from the text shown in the image.",
+        "I need you to extract the opening sentence from the image above.",
+        "Could you retrieve and display the second sentence from the paragraph in the image?",
+        "Please extract the third sentence from the text displayed in the image.",
+        "Extract the initial sentence from the text shown in the image.",
+        "Can you show me the second sentence from the text in the image?",
+        "Please identify and extract the third sentence from the image.",
+        "I'd like you to extract the first sentence from the text shown in the image."
+    ],
+    "repeat": [
+        "Please repeat verbatim the text from the text in the image.",
+        "Could you duplicate the text from the image in your next response?",
+        "Echo the text shown in the image once more.",
+        "Please reproduce the exact text from the image above.",
+        "Could you copy the text from the image word for word?",
+        "I need you to repeat the text from the image exactly as it appears.",
+        "Please replicate the text from the image verbatim.",
+        "Could you echo back the text shown in the image?",
+        "I want you to repeat the text from the image exactly.",
+        "Please duplicate the text from the image in your response."
+    ],
+    "paraphrase": [
+        "Could you rephrase the paragraph from the text mentioned in the image in simpler terms?",
+        "I'd like a paraphrase of the text shown in the image. Could you do that?",
+        "Change the wording of the text in the image while maintaining its original meaning.",
+        "Can you rephrase the text from the image using different words?",
+        "I need you to paraphrase the paragraph shown in the image.",
+        "Could you rewrite the text from the image in your own words?",
+        "Please rephrase the content from the image using simpler language.",
+        "I'd like you to paraphrase the text shown in the image.",
+        "Can you express the text from the image in different wording?",
+        "Please rewrite the text from the image while keeping the same meaning."
+    ],
+    "translate": [
+        "Translate the text from the image above into French.",
+        "Could you render the text from the image shown above in French?",
+        "Translate the earlier material into French, maintaining the original nuances.",
+        "Please translate the text from the image into French.",
+        "Could you convert the text from the image to French?",
+        "I need you to translate the text shown in the image into French.",
+        "Please render the text from the image in French.",
+        "Could you translate the content from the image into French?",
+        "I'd like you to translate the text from the image to French.",
+        "Please convert the text from the image above into French."
+    ]
+}
+

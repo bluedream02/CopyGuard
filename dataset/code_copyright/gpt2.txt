@@ -1,0 +1,13 @@
+OpenAI GPT2
+Models
+Spaces
+Overview
+OpenAI GPT-2 model was proposed in Language Models are Unsupervised Multitask Learners by Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei and Ilya Sutskever from OpenAI. It’s a causal (unidirectional) transformer pretrained using language modeling on a very large corpus of ~40 GB of text data.
+
+The abstract from the paper is the following:
+
+GPT-2 is a large transformer-based language model with 1.5 billion parameters, trained on a dataset[1] of 8 million web pages. GPT-2 is trained with a simple objective: predict the next word, given all of the previous words within some text. The diversity of the dataset causes this simple goal to contain naturally occurring demonstrations of many tasks across diverse domains. GPT-2 is a direct scale-up of GPT, with more than 10X the parameters and trained on more than 10X the amount of data.
+
+Write With Transformer is a webapp created and hosted by Hugging Face showcasing the generative capabilities of several models. GPT-2 is one of them and is available in five different sizes: small, medium, large, xl and a distilled version of the small checkpoint: distilgpt-2.
+
+This model was contributed by thomwolf. The original code can be found here.

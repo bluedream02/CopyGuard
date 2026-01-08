@@ -1,0 +1,14 @@
+Introduction to Pygame
+Pygame is a multimedia library for Python for making games and multimedia applications.
+
+It is a wrapper around the SDL (Simple DirectMedia Layer) library. In this section we indroduce the basics of pygame functions without defining classes and objects.
+
+Import the module
+To use the methods in the Pygame library, the module must first be imported:
+
+import pygame
+The import statement writes the pygame version and a link to the Pygame website to the console (as a side effect):
+
+pygame 1.9.6
+Hello from the pygame community.
+https://www.pygame.org/contribute.html

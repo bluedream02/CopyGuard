@@ -1,0 +1,6 @@
+Documentation
+We welcome contributions to our documentation via GitHub pull requests, whether it’s fixing a typo or authoring an entirely new tutorial or guide. If you’re thinking about contributing documentation, please see How to Author Gensim Documentation.
+
+Core Tutorials: New Users Start Here!
+If you’re new to gensim, we recommend going through all core tutorials in order. Understanding this functionality is vital for using gensim effectively.
+
