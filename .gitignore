@@ -35,8 +35,8 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Models and data
-models/
+# Models and data (model weights only, not code)
+# models/  # Commented out - we want to track the models/ code directory
 *.pth
 *.pt
 *.ckpt
