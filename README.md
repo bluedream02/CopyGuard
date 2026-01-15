@@ -1,9 +1,9 @@
-# Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
+# [AAAI 2026 Oral] Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?
 
 [![AAAI 2026 (Oral)](https://img.shields.io/badge/AAAI%202026-Oral-blue)](https://aaai.org/conference/aaai/aaai-26/)
 [![arXiv](https://img.shields.io/badge/arXiv-2512.21871-b31b1b.svg)](https://arxiv.org/abs/2512.21871)
 
-This is the official implementation of **"Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?"** (AAAI 2026).
+This is the official implementation of **"Bridging the Copyright Gap: Do Large Vision-Language Models Recognize and Respect Copyrighted Content?"** (AAAI 2026 Oral).
 
 ## 📑 Table of Contents
 
@@ -23,14 +23,14 @@ This repository provides a comprehensive framework for evaluating and enhancing 
 
 The benchmark dataset contains **50,000 query-content pairs** organized across 4 categories:
 
-| Category | Content Files | Image Modes | Notices | Queries | Total Pairs |
-|----------|--------------|-------------|---------|---------|-------------|
-| Books | 100 | 3 | 5 | 40 | 20,000 |
-| Code | 50 | 3 | 5 | 40 | 10,000 |
-| Lyrics | 50 | 3 | 5 | 40 | 10,000 |
-| News | 50 | 3 | 5 | 40 | 10,000 |
+| Category | Content Files | Notices | Task Types | Queries per Task | Total Pairs |
+|----------|--------------|---------|------------|------------------|-------------|
+| Books | 100 | 5 | 4 | 10 | 20,000 |
+| Code | 50 | 5 | 4 | 10 | 10,000 |
+| Lyrics | 50 | 5 | 4 | 10 | 10,000 |
+| News | 50 | 5 | 4 | 10 | 10,000 |
 
-**Calculation**: 250 sources × 3 image modes × 5 notice forms × 4 task types × 10 queries = 50,000
+**Calculation**: 250 material sources × 5 forms of copyright notice × 4 task types × 10 queries per task = 50,000
 
 
 ## 📢 News
@@ -101,6 +101,26 @@ models:
 
 This section provides a step-by-step guide to evaluate models with and without the CopyGuard defense mechanism.
 
+### Supported Models
+
+The framework supports the following LVLMs:
+
+**Local Models:**
+- **Qwen2.5-VL** (7B, 3B): State-of-the-art multimodal model
+  - Install: `pip install qwen-vl-utils`
+- **DeepSeek-VL** (7B): High-performance vision-language model
+  - Install: `git clone https://github.com/deepseek-ai/DeepSeek-VL.git && cd DeepSeek-VL && pip install -e .`
+- **LLaVA** (1.5-7B, 1.5-13B, Next): Popular open-source VLM
+  - Install: `git clone https://github.com/haotian-liu/LLaVA.git && export PYTHONPATH=/path/to/LLaVA:$PYTHONPATH`
+- **GLM-4V** (9B): Bilingual vision-language model
+- **InstructBLIP** (Vicuna-7B): Instruction-tuned BLIP
+- **Janus-Pro** (7B): Unified vision understanding and generation model
+
+**API-Based Models:**
+- **GPT-4o, GPT-4o-mini**: OpenAI's multimodal models
+- **Claude 3** (Opus, Sonnet, Haiku): Anthropic's vision models
+- **Gemini Pro**: Google's multimodal model
+
 ### Step 1: Generate Baseline Responses (Without Defense)
 
 Generate baseline model responses without any defense mechanism:
@@ -165,6 +185,144 @@ python -m evaluation.evaluator \
     --output results/book_defense_eval.json \
     --csv results/book_defense_metrics.csv
 ```
+
+## 📚 Advanced Usage
+
+### Using Different Models
+
+#### Local Models
+
+**Qwen2.5-VL:**
+```bash
+python -m models.generate_responses \
+    --model-type qwen \
+    --model-path /path/to/Qwen2.5-VL-7B-Instruct \
+    --dataset dataset/book_copyright.json \
+    --output results/qwen_results.json
+```
+
+**DeepSeek-VL:**
+```bash
+python -m models.generate_responses \
+    --model-type deepseek \
+    --model-path /path/to/deepseek-vl-7b-chat \
+    --dataset dataset/book_copyright.json \
+    --output results/deepseek_results.json
+```
+
+**LLaVA:**
+```bash
+python -m models.generate_responses \
+    --model-type llava \
+    --model-path /path/to/llava-v1.5-7b \
+    --llava-repo-path /path/to/LLaVA \
+    --dataset dataset/book_copyright.json \
+    --output results/llava_results.json
+```
+
+**GLM-4V:**
+```bash
+python -m models.generate_responses \
+    --model-type glm \
+    --model-path /path/to/glm-4v-9b \
+    --dataset dataset/book_copyright.json \
+    --output results/glm_results.json
+```
+
+#### API-Based Models
+
+**GPT-4o:**
+```bash
+export OPENAI_API_KEY="your-api-key"
+python -m models.generate_responses \
+    --model-type gpt-4o \
+    --model-path gpt-4o \
+    --dataset dataset/book_copyright.json \
+    --output results/gpt4o_results.json
+```
+
+**Claude:**
+```bash
+export ANTHROPIC_API_KEY="your-api-key"
+python -m models.generate_responses \
+    --model-type claude \
+    --model-path claude-3-7-sonnet-20250219 \
+    --api-base https://api.anthropic.com/v1 \
+    --dataset dataset/book_copyright.json \
+    --output results/claude_results.json
+```
+
+### CopyGuard Defense Options
+
+The CopyGuard defense framework can be customized with various options:
+
+```bash
+python -m models.generate_responses_with_defense \
+    --model-type qwen \
+    --model-path /path/to/qwen2.5-vl-7b \
+    --dataset dataset/book_copyright.json \
+    --output results/book_defense.json \
+    --enable-ocr \              # Enable OCR-based copyright detection
+    --enable-verifier \         # Enable copyright status verification
+    --enable-risk-analyzer \    # Enable query risk analysis
+    --enable-reminder \         # Enable copyright reminders
+    --block-risky              # Block risky queries (vs. warning only)
+```
+
+**Defense Components:**
+- **Notice Identifier**: Uses PaddleOCR to detect copyright notices in images
+- **Status Verifier**: Uses Serper API + DeepSeek-R1 to verify copyright status
+- **Risk Analyzer**: Analyzes queries for potential copyright infringement
+- **Status Reminder**: Provides copyright guidance to the model
+
+### Batch Processing
+
+Process all 5 copyright notice configurations:
+
+```bash
+#!/bin/bash
+MODEL_TYPE="qwen"
+MODEL_PATH="/path/to/qwen2.5-vl-7b"
+DATASET="dataset/book_copyright.json"
+
+for image_mode in 0 1 2; do
+    for notice_mode in 0 1 2; do
+        if [ $image_mode -eq 0 ] || [ $notice_mode -eq 0 ]; then
+            echo "Processing image_mode=$image_mode, notice_mode=$notice_mode"
+            python -m models.generate_responses \
+                --model-type $MODEL_TYPE \
+                --model-path $MODEL_PATH \
+                --dataset $DATASET \
+                --output results/book_${image_mode}_${notice_mode}.json \
+                --image-mode $image_mode \
+                --notice-mode $notice_mode
+        fi
+    done
+done
+```
+
+### Dataset Structure
+
+The dataset JSON should follow this structure:
+
+```json
+[
+    {
+        "txt_file": "dataset/book_copyright/1Q84.txt",
+        "img_file_0": "dataset/book_copyright_images/0/1Q84_sample_1.png",
+        "img_file_1": "dataset/book_copyright_images/1/1Q84_sample_1.png",
+        "img_file_2": "dataset/book_copyright_images/2/1Q84_sample_1.png",
+        "text": "Full text content from the book...",
+        "copyright_text": "Copyright © 2009 by Haruki Murakami. All rights reserved."
+    }
+]
+```
+
+Each entry contains:
+- `txt_file`: Path to the text file
+- `img_file_0/1/2`: Paths to images with different copyright notice modes
+- `text`: The actual text content
+- `copyright_text`: Original copyright notice text
 
 ## 📄 Citation
 

@@ -7,7 +7,22 @@ for text and image files in the dataset.
 
 import os
 import warnings
+from pathlib import Path
 from typing import Optional
+
+
+def get_project_root() -> str:
+    """
+    Get the project root directory.
+    
+    Returns:
+        Path to project root
+    """
+    # Get the directory containing this file (utils/)
+    utils_dir = Path(__file__).parent
+    # Go up one level to get project root
+    project_root = utils_dir.parent
+    return str(project_root)
 
 
 def get_text_file_path(dataset_type: str, filename: str, base_dir: str = "dataset") -> str:
